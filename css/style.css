@@ -1,9 +1,28 @@
 body {
     margin: 60px auto;
     width: 70%;
+	font-family: serif;
+    font-size: 100%;
 }
 
 h1 {
     font-size: 3em;
-    font-family: 'Sans-Serif';
+    font-family: 'Serif';
 }
+
+#header {
+            background-color: #ccf;
+            padding: 3px;
+}
+
+#nav {
+        background-color: #eef;
+        font-size: large;
+        padding: 5px;
+}
+
+#notice { background-color: #eef; }
+
+#nav a {text-decoration: none; }
+
+#nav a:hover { color: #666; }
