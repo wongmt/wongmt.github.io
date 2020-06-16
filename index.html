@@ -3,31 +3,35 @@
   <head>
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <title>Personal site of M Wong</title>  
+    <title>Site of M Wong</title>  
 	<div id='header'><h1>M Wong</h1>
     <h3>My personal site</h3></div>
     </div>
 
-    <div id ="nav">
-     <a href="index.html"><b>Home</b></a> |
-     <a href="privacy.html"><b>Privacy</b></a>
-    </div>
- 
-	
-	<h1>Home</h1>
+    <h1>Home</h1> 
 	<div id="content">
     <ul>
         <li>Researcher in computer vision and machine learning</li>
         <li>Ph.D in Computing, M.Sc & B.Sc(Hons.) in Electronic Engineering</li>
-        <li>Web app development experience using Flask, Django, PHP, HTML, CSS</li>
-        <li>Experience in Python, C/C++, Java, PHP</li>
+        <li>Web app development experience using Flask, Django, PHP, HTML, CSS, Javascript</li>
+        <li>Experience in Python, C/C++, Java, PHP, Javascript</li>
     </ul>
 	</div>
 	
 		<div id="notice">
-		<p>Similar to many other websites, this site might use cookies in order to improve
-		the website performance and provide better web surfing experience for visitors. If you 
-		continue to use this site, it will be assumed that you agree to the use of cookies.</p>
-		</div>		
+		<p style={font-size: small;}>Similar to many other websites, this site might use cookies
+		in order to improve the website performance and provide better web surfing experience
+		for visitors. If you continue to use this site, it will be assumed that you agree to
+		the use of cookies. Please click the agree button if you accept the use of cookies 
+		and ontinue browsing in this site. 
+		<button onclick="button_response()"> Agree </button>
+		You can click <a href="privacy.html">here </a> to read more details about the 
+		privacy information if interested. 
+		</p>
+		</div>
+		
+		<script src="button_response.js">
+		</script>
+		
 	</body>
 </html>
