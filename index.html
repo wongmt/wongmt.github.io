@@ -7,17 +7,24 @@
 	<div id='header'><h1>M Wong</h1>
     <h3>My personal site</h3></div>
     </div>
+	
+	<div id ="nav">
+     <a href="index.html"><b>About me</b></a> |
+     <a href="privacy.html"><b>Privacy</b></a>
+    </div>
 
     <h1>Home</h1> 
 	<div id="content">
     <ul>
         <li>Researcher in computer vision and machine learning</li>
         <li>Ph.D in Computing, M.Sc & B.Sc(Hons.) in Electronic Engineering</li>
-        <li>Web app development experience using Flask, Django, PHP, HTML, CSS, Javascript</li>
         <li>Experience in Python, C/C++, Java, PHP, Javascript</li>
+		<li>Web framework experience: Django, Flask, CodeIgniter, React JS</li>
+		<li>Computer vision software library experience: OpenCV, scikit-image</li>
+		<li>Machine learning software library experience: Tensorflow, scikit-learn, Weka</li>
     </ul>
 	</div>
-	
+		
 		<div id="notice">
 		<p style={font-size: small;}>Similar to many other websites, this site might use cookies
 		in order to improve the website performance and provide better web surfing experience
@@ -30,8 +37,14 @@
 		</p>
 		</div>
 		
-		<script src="button_response.js">
+		<script>
+		function button_response() {
+			document.getElementById('notice').style.display= "none";
+			document.cookie="myacceptbutton1=yes";
+		}
+		var check=document.cookie.indexOf('myacceptbutton1');
+		if (check != -1)
+			document.getElementById("notice").style.display= "none";
 		</script>
-		
 	</body>
 </html>
