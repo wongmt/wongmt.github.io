@@ -21,7 +21,7 @@ h1 {
         padding: 5px;
 }
 
-#notice { background-color: #eef; }
+.notice { background-color: #eef; }
 
 #nav a {text-decoration: none; }
 

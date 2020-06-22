@@ -9,7 +9,7 @@
     </div>
 	
 	<div id ="nav">
-     <a href="index.html"><b>About me</b></a> |
+     <a href="index.html"><b>Home</b></a> |
      <a href="privacy.html"><b>Privacy</b></a>
     </div>
 
@@ -25,26 +25,19 @@
     </ul>
 	</div>
 		
-		<div id="notice">
-		<p style={font-size: small;}>Similar to many other websites, this site uses cookies
+		<div class="notice">
+		<p style={font-size: small;}>Similar to many other websites, this site might use cookies
 		in order to improve the website performance and provide better web surfing experience
 		for visitors. If you continue to use this site, it will be assumed that you agree to
 		the use of cookies. Please click the agree button if you accept the use of cookies 
-		and continue browsing in this site. 
+		and continue browsing in this site. 		
 		<button onclick="button_response()"> Agree </button>
 		You can click <a href="privacy.html">here </a> to read more details about the 
 		privacy information if interested. 
 		</p>
 		</div>
 		
-		<script>
-		function button_response() {
-			document.getElementById('notice').style.display= "none";
-			document.cookie="myacceptbutton1=yes";
-		}
-		var check=document.cookie.indexOf('myacceptbutton1');
-		if (check != -1)
-			document.getElementById("notice").style.display= "none";
-		</script>
+		<script src="button_response.js"></script>		
+		<script src="check_cookie.js"></script>
 	</body>
 </html>
