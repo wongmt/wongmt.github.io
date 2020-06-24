@@ -25,19 +25,21 @@
     </ul>
 	</div>
 		
-		<div class="notice">
+		<div id="notice">
 		<p style={font-size: small;}>Similar to many other websites, this site might use cookies
 		in order to improve the website performance and provide better web surfing experience
 		for visitors. If you continue to use this site, it will be assumed that you agree to
 		the use of cookies. Please click the agree button if you accept the use of cookies 
-		and continue browsing in this site. 		
-		<button onclick="button_response()"> Agree </button>
-		You can click <a href="privacy.html">here </a> to read more details about the 
+		and continue browsing in this site. You can click <a href="privacy.html">here </a> to read more details about the 
 		privacy information if interested. 
+		<div id="mybutton_container"></div>
+		
+		<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+		<script src="mybutton.js"></script>
+		<script>alert(document.cookie)</script>
 		</p>
 		</div>
-		
-		<script src="button_response.js"></script>		
 		<script src="check_cookie.js"></script>
-	</body>
+</body>
 </html>
