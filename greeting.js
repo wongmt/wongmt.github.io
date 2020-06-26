@@ -3,7 +3,7 @@
 class Greeting extends React.Component {
 
     render() {
-		return ('Welcome to my homepage ');
+		return ('Welcome to my personal website.');
 	}
 } 
 
