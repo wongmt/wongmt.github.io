@@ -20,9 +20,4 @@ h1 {
         font-size: large;
         padding: 5px;
 }
-
 #notice { background-color: #eef; }
-
-#nav a {text-decoration: none; }
-
-#nav a:hover { color: #666; }
