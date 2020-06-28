@@ -12,20 +12,31 @@
 	<a href="index.html">Home</a> |
 	<a href="privacy.html">Privacy</a>
 </div>
-<p><div id="greeting_container"></div></p> 	
-		<div id="notice">
-		<div id="notice_container"></div>
-		<p><div id="mybutton_container"></div></p>				
-		<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-		<script src="greeting.js"></script>
-		<script src="notice.js"></script>
-		<script src="mybutton.js"></script>			
-		</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="greeting_container">
+  <h1>{{ msg1 }}</h1> 
+  <p>{{ msg2}}</p>
+  <p>{{msg3}}</p>
+</div>
+<script src="greeting.js"></script>
+
+<div id="notice">
+<div id="notice_container">
+  <p>{{ msg }}</p> 
+</div>
+<script src="notice.js"></script>
+				
+<button onclick="agree()">Agree</button>
+	
+<script src="mybutton.js"></script>		
+</div>
 		
-		<script src="check_cookie.js"></script>
-		<br>
-		<div id="footer_container"></div>
-		<script src="footer.js"></script>
+<script src="check_cookie.js"></script>
+<br>
+<div id="footer_container">
+<p>{{ footer_msg }}</p> 
+</div>
+<script src="footer.js"></script>
 </body>
 </html>

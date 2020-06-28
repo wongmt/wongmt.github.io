@@ -1,13 +1,8 @@
-'use strict';
 
-class Footer extends React.Component {
-
-    render() {
-		return (	        
-		'Updated on 26-6-2020'
-		);
-	}
-}
-
-const footerContainer = document.querySelector('#footer_container');
-ReactDOM.render(React.createElement(Footer), footerContainer);
+var footer_app = new Vue({
+  el: '#footer_container',
+  data: {
+	footer_msg: 'Site is under construction. Updated in 29/06/2020'
+			
+  }
+})

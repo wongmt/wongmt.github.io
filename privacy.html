@@ -4,7 +4,9 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>M. Wong</title>
 </head>
-<body>	
+<body>
+<noscript>You need to enable Javascript for this app to work properly</noscript>	
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <div id='header'><h1>M Wong</h1></div>
     <div id ="nav">
      <a href="index.html">Home</a> | 	 
@@ -14,30 +16,32 @@
 <h1>Privacy Policy</h1>
 <h2>Who we are</h2>
 <p>Our website address is: https://wongmt.github.io</p>
-<p>This is the personal site of M. Wong.</p> 
-	
-<h2>Email</h2>	
-<p><div id="myemail_container"></div></p>
+<p>This is the personal site of M. Wong. 
+<p>Email: mwong(at)mwongsite.com, replace (at) by @
 
 <h2>Cookies</h2>
 <p>This website uses cookies in order to improve your experience of using the site. 
 If you continue to use this site, it will be assumed that you agree to the use of cookies.</p>
 
+<h2>Data collected when visitors contact site author by email</h2>
+<p>If you contact the site author by email, your name, email address and other information 
+you provide to the site author will be stored in email account of the site author.</p>
 <p>The above privacy policy can be changed at any time by the site author without giving notice.</p>				
-		<div id="notice">
-		<div id="notice_container"></div>		
-		<p><div id="mybutton_container"></div></p>
 
-		<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-		<script src="notice.js"></script>
-		<script src="mybutton.js"></script>		
-		</div>
-		
-		<script src="myemail.js"></script>
-		<script src="check_cookie.js"></script>		
-		<br>
-		<div id="footer_container"></div>
-		<script src="footer.js"></script>
+<div id="notice">
+<div id="notice_container">
+  <p>{{ msg }}</p> 
+</div>
+<script src="notice.js"></script>				
+<button onclick="agree()">Agree</button>
+<script src="mybutton.js"></script>		
+</div>		
+<script src="check_cookie.js"></script>
+<br>
+<div id="footer_container">
+<p>{{ footer_msg }}</p> 
+</div>
+<script src="footer.js"></script>		
+<br>
 </body>
 </html>
