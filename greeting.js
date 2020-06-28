@@ -11,7 +11,8 @@ var app = new Vue({
 		'Vue JS and CodeIgniter. I have experience and knowledge in the following software libraries: Tensorflow, '+
 	  	'OpenCV, scikit-learn, scikit-image, and Weka. There are two purposes of this site. '+
 	  	'One purpose is to show breifly my personal information in this site and the '+
-	  	'other purpose is to use this site to learn Javascript framework.'
+	  	'other purpose is to use this site to learn Javascript framework. This site is built by using the Vue Javascript framework, '+
+	  	'Javascript, HTML and CSS. This site is still under construction.'
   }
 })
 
