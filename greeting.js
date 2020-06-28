@@ -8,9 +8,10 @@ var app = new Vue({
 		'in Electronic Engineering. I have experience in Python, Java, '+
 		'C++, PHP and Javascript. I also have strong interest in web app '+
 		'development and I have experience in Django, Flask, React JS, '+
-		'Vue JS and CodeIgniter. There are two purposes of this site. '+
+		'Vue JS and CodeIgniter. I have experience and knowledge in the following software libraries: Tensorflow, '+
+	  	'OpenCV, scikit-learn, scikit-image, and Weka. There are two purposes of this site. '+
 	  	'One purpose is to show breifly my personal information in this site and the '+
-	  	'other purpose is to use this site to learn Javascript framework. '
+	  	'other purpose is to use this site to learn Javascript framework.'
   }
 })
 
