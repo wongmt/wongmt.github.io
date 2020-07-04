@@ -13,10 +13,15 @@
 	<a href="privacy.html">Privacy</a>
 </div>
 <h1>Home</h1>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <div id="content_container">
-<p v-for="content in contents">
-	{{content.text}} </p>
+<p>{{content}}</p>
+<h3>{{skills_title}}</h3>
+<ul>
+<li v-for="skill in skills">
+	{{skill.text}}</li>
+</ul>
 </div>
 <script src="content.js"></script>
 <div id="notice">
