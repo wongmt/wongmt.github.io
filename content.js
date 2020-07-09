@@ -11,6 +11,7 @@ var app = new Vue({
 				'this site and the other purpose is to use this site to learn '+
 				'Javascript framework. This site is built by using the Vue '+
 				'Javascript framework, Javascript, HTML and CSS.',
+	skills_title: 'Experience and skills',
     skills:[		
 		{text: 'Programming languages: Python, Javascript, C++, Java, PHP'},
 		{text: 'Web frameworks: Django, Flask, React JS, Vue JS and CodeIgniter'},
