@@ -1,10 +1,12 @@
 body {
-    	margin: 100px auto;
+    	margin: 50px auto;
 	font-family: serif;
+	padding: 5px;
 }
 h1 {
     font-size: 3em;
     font-family: 'Serif';
+    padding: 5px;
 }
 #header {
             background-color: #ccf;
