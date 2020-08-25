@@ -13,7 +13,7 @@ var app = new Vue({
 				'this site and the other purpose is to use this site to learn '+
 				'Javascript framework. This site is built by using the Vue '+
 				'Javascript framework, Javascript, HTML and CSS.</p>'+
-				'<h3>Experience and skills</h3>' +
+				'<h2>Experience and skills</h2>' +
 				'<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>'+
 				'<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>'+
 				'<li>Computer vision software libraries: OpenCV, scikit-image</li>'+
