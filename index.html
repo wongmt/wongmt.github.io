@@ -12,19 +12,22 @@
 	<a href="index.html">Home</a> |
 	<a href="privacy.html">Privacy</a>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 <div id="content_container">
 <div v-html='content'></div>
 </div>
 <script src="content.js"></script>
 
-<div id="notice">
-<p id="notice_container"></p>
-<script src="notice.js"></script>
-<button onclick="agree()">Agree</button>			
-</div>	
-<script src="mybutton.js"></script>
-<script src="check_cookie.js"></script>
+<div id="button_container">
+{{check_cookie()}}
+	<div v-if= "seen">
+	<p>Similar to many other websites, this site uses cookies to improve the 
+		browsing experience of site visitors. If you continue to use this site, 
+		it will be assumed you agree to the use of cookies. Please click the "Agree" 
+		button to continue browsing.</p>
+	<button v-on:click="agree">Agree</button>
+	</div>
+</div>
+<script src="button.js"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@ var privacy_app = new Vue({
 					'using the site. If you continue to use this site, it will be '+
 					'assumed that you agree to the use of cookies.</p>'+
 					'<p>The above privacy policy can be changed at any time by '+
-					'the site author without giving notice.</p></div>'	
-					
-  }
+					'the site author without giving notice.</p></div>'
+		}
+   
 })
