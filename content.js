@@ -10,8 +10,8 @@ var app = new Vue({
 				'and Javascript, and mobile app development using Java and Kotlin. ' +
 				'There are two purposes of this site. ' +
 				'One purpose is to show breifly my personal information in '+
-				'this site and the other purpose is to use this site to learn '+
-				'Javascript framework. This site is built by using the Vue '+
+				'this site and the other purpose is to use this site to learn the '+
+				'Vue Javascript framework. This site is built by using the Vue '+
 				'Javascript framework, Javascript, HTML and CSS.</p>'+
 				'<h2>Experience and skills</h2>' +
 				'<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>'+
@@ -19,5 +19,6 @@ var app = new Vue({
 				'<li>Computer vision software libraries: OpenCV, scikit-image</li>'+
 				'<li>Machine learning software libraries: Tensorflow, Weka</li>'+
 				'<li>Mobile app development: Android Studio</li></ul></div>'
+	
 		}
 })
