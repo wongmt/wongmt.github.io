@@ -8,11 +8,8 @@ var app = new Vue({
 				'I have experience in Python, Java, C++, PHP, Javascript and Kotlin. ' +
 				'I also have strong interest in web app development using Python ' +
 				'and Javascript, and mobile app development using Java and Kotlin. ' +
-				'There are two purposes of this site. ' +
-				'One purpose is to show breifly my personal information in '+
-				'this site and the other purpose is to use this site to learn the '+
-				'Vue Javascript framework. This site is built by using the Vue '+
-				'Javascript framework, Javascript, HTML and CSS.</p>'+
+				'This site is built by using the Vue Javascript framework, Javascript, '+
+				'HTML and CSS. The site is hosted in Github pages.</p>' +
 				'<h2>Experience and skills</h2>' +
 				'<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>'+
 				'<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>'+
