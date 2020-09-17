@@ -9,13 +9,13 @@ var app = new Vue({
 				'I also have strong interest in web app development using Python ' +
 				'and Javascript, and mobile app development using Java and Kotlin. ' +
 				'This site is built by using the Vue Javascript framework, Javascript, '+
-				'HTML and CSS. The site is hosted in Github pages.</p>' +
+				'HTML and CSS. This site is hosted by GitHub Pages.</p>' +
 				'<h2>Experience and skills</h2>' +
 				'<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>'+
 				'<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>'+
 				'<li>Computer vision software libraries: OpenCV, scikit-image</li>'+
 				'<li>Machine learning software libraries: Tensorflow, Weka</li>'+
-				'<li>Mobile app development: Android Studio</li></ul></div>'
+				'<li>Mobile app development: Kotlin, Java, Android Studio</li></ul></div>'
 	
 		}
 })
