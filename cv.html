@@ -34,6 +34,14 @@
 	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 </ul>
-<p><a href="https://wongmt.github.io">Back to home</a></p>
+
+<div id="button_container">
+{{check_cookie()}}
+	<div v-if= "seen">
+	<div v-html='notice'></div>
+	<button v-on:click="agree">Agree</button>
+	</div>
+</div>
+<script src="button.js"></script>
 </body>
 </html>
