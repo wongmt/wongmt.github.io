@@ -11,10 +11,10 @@ function App() {
         <h3>My Personal Site</h3>
 		</div>
 		<br />
-        <a className="App-link"
-          href="https://wongmt.github.io/mysite/cv.html" >My CV</a>
-		<a className="App-link"
-          href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a>  
+        <p><a className="App-link"
+          href="https://wongmt.github.io/mysite/cv.html" >My CV</a></p>
+		<p><a className="App-link"
+          href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a></p>  
 		<br />
 		<p>This site might use cookies in order to improve the web browsing experience of users.
 			If you continue to use this site, it will be assumed you agree to the use of cookies.</p>
