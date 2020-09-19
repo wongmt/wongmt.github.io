@@ -14,7 +14,7 @@ function App() {
 		</div>
         <a
           className="App-link"
-          href="https://wongmt.github.io/cv1.html"
+          href="https://wongmt.github.io/mysite/cv.html"
         >
           My CV
         </a>
