@@ -5,6 +5,6 @@ Vue.component('myheadercom', {
 					'<a href="privacy.html">Resume</a></div></div>'
 })
 
-var vm = new Vue({cv
+var vm = new Vue({
    el: '#myheader'
 })
