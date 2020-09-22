@@ -1,6 +1,6 @@
-.App {
+/*.App {
   text-align: center;
-}
+}*/
 
 .Introd {
   text-align: left;
@@ -9,6 +9,7 @@
 .MyHeader {
 	background-color: #eeeeaa;
 	padding: 5px;
+	text-align: center;
 }
 
 /*
@@ -22,7 +23,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }*/
-
+.Links {
+	text-align: center;
+}
 .App-link {
   /*color: #61dafb;*/
   color: blue;

@@ -11,6 +11,13 @@ function App() {
         <h3>My Personal Site</h3>
 		</div>
 		
+		<div className="Links">
+        <p><a className="App-link"
+          href="https://wongmt.github.io/mysite/cv.html" >My CV</a></p>
+		<p><a className="App-link"
+          href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a></p> 
+		</div>
+		
 		<div className="Intro">
 		<p>	Welcome to my personal website. I am a researcher in 
 			computer vision and machine learning with Ph.D in 
@@ -28,12 +35,7 @@ function App() {
 			<li>Machine learning software libraries: Tensorflow, Weka</li>
 			<li>Mobile app development: Kotlin, Java, Android Studio</li></ul>
 		</div>
-		<br />
-        <p><a className="App-link"
-          href="https://wongmt.github.io/mysite/cv.html" >My CV</a></p>
-		<p><a className="App-link"
-          href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a></p>  
-		<br />
+		
 		<p>This site might use cookies in order to improve the web browsing experience of users.
 			If you continue to use this site, it will be assumed you agree to the use of cookies.</p>
       </header>
