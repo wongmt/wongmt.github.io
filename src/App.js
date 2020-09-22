@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+	  
 		<div className="MyHeader">
         <h1>M. Wong</h1>
         <h3>My Personal Site</h3>
@@ -13,8 +14,8 @@ function App() {
 		
 		<div className="Links">
         <p><a className="App-link"
-          href="https://wongmt.github.io/mysite/cv.html" >My CV</a></p>
-		<p><a className="App-link"
+          href="https://wongmt.github.io/mysite/cv.html" >My CV</a>&nbsp; | &nbsp; 
+		  <a className="App-link"
           href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a></p> 
 		</div>
 		
