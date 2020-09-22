@@ -10,6 +10,8 @@ function App() {
         <h1>M. Wong</h1>
         <h3>My Personal Site</h3>
 		</div>
+		
+		<div className="Intro">
 		<p>	Welcome to my personal website. I am a researcher in 
 			computer vision and machine learning with Ph.D in 
 			Computing, M.Sc & B.Sc(Hons.) in Electronic Engineering.
@@ -25,6 +27,7 @@ function App() {
 			<li>Computer vision software libraries: OpenCV, scikit-image</li>
 			<li>Machine learning software libraries: Tensorflow, Weka</li>
 			<li>Mobile app development: Kotlin, Java, Android Studio</li></ul>
+		</div>
 		<br />
         <p><a className="App-link"
           href="https://wongmt.github.io/mysite/cv.html" >My CV</a></p>
