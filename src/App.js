@@ -26,7 +26,7 @@ function App() {
 			I have experience in Python, Java, C++, PHP, Javascript and Kotlin.
 			I also have strong interest in web app development using Python 
 			and Javascript, and mobile app development using Java and Kotlin. 
-			This site is built by using the Vue Javascript framework, Javascript,
+			This site is built by using the React Javascript framework, Javascript,
 			HTML and CSS. This site is hosted by GitHub Pages.</p>
 			
 			<h2>Experience and skills</h2>
