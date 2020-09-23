@@ -29,7 +29,7 @@ function App() {
 			This site is built by using the React Javascript framework, Javascript,
 			HTML and CSS. This site is hosted by GitHub Pages.</p>
 			
-			<h2>Experience and skills</h2>
+			<h2>Experience & skills</h2>
 			<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>
 			<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>
 			<li>Computer vision software libraries: OpenCV, scikit-image</li>
