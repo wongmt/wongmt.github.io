@@ -14,9 +14,9 @@ function App() {
 		
 		<div className="Links">
         <p><a className="App-link"
-          href="https://wongmt.github.io/mysite/cv.html" >My CV</a>&nbsp; | &nbsp; 
+          href="https://wongmt.github.io/cv.html" >My CV</a>&nbsp; | &nbsp; 
 		  <a className="App-link"
-          href="https://wongmt.github.io/mysite/privacy.html" >Privacy policy</a></p> 
+          href="https://wongmt.github.io/privacy.html" >Privacy policy</a></p> 
 		</div>
 		
 		<div className="Intro">
