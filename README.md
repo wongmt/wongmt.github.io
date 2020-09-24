@@ -1,3 +1,6 @@
+This is the personal site of M Wong.
+This site is developed by React JS, JavaScript, HTML and CSS.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
