@@ -3,7 +3,8 @@ import '../App.css';
 
 function CV() {
   return (
-    <div className="CV">	
+    <div className="CV">
+	<h1>CV</h1>
 	<h3>Education</h3>
 	<ul>
 	<li>PhD in Computing</li>
