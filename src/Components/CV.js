@@ -4,12 +4,26 @@ import '../App.css';
 function CV() {
   return (
     <div className="CV">	
-	<h2>Experience & skills</h2>
-			<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>
-			<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>
-			<li>Computer vision software libraries: OpenCV, scikit-image</li>
-			<li>Machine learning software libraries: Tensorflow, Weka</li>
-			<li>Mobile app development: Kotlin, Java, Android Studio</li></ul>
+	<h3>Education</h3>
+	<ul>
+	<li>PhD in Computing</li>
+	<li>M.Sc in Electronic Engineering</li>
+	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
+	</ul>
+
+	<h3>Research specialism</h3>
+	<ul>
+	<li>Computer vision</li>
+	<li>Machine learning</li>
+	</ul>
+
+	<h3>Skills & experience</h3>
+	<ul>
+	<li>Programming languages: Python, Java, JavaScript, C++, Python, Kotlin, PHP</li>
+	<li>Web frameworks: Flask, Django, ReactJS, VueJS, CodeIgniter</li>
+	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
+	<li>Computer vision library: OpenCV, scikit-image</li>
+	</ul>
 	</div>
 );
 }

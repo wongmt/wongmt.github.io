@@ -9,7 +9,7 @@ function App() {
 		<Header />
 		<div className="Links">
         <p><a className="App-link"
-          href="https://wongmt.github.io/cv.html" >My CV</a>&nbsp; | &nbsp; 
+          href="https://wongmt.github.io/cv.html" >CV</a>&nbsp; | &nbsp; 
 		  <a className="App-link"
           href="https://wongmt.github.io/privacy.html" >Privacy policy</a></p> 
 		</div>
@@ -17,10 +17,8 @@ function App() {
 		<div className="Intro">
 		<p>	Welcome to my personal website. I am a researcher in 
 			computer vision and machine learning with Ph.D in 
-			Computing, M.Sc & B.Sc(Hons.) in Electronic Engineering.
-			I have experience in Python, Java, C++, PHP, Javascript and Kotlin.
-			I also have strong interest in web app development using Python 
-			and Javascript, and mobile app development using Java and Kotlin. 
+			Computer Scence, M.Sc & B.Sc(Hons.) in Electronic Engineering.
+			I also have experience in web app and mobile app development.
 			This site is built by using the React Javascript framework, Javascript,
 			HTML and CSS. This site is hosted by GitHub Pages.</p>
 		
