@@ -26,14 +26,13 @@ function App() {
 	<nav>
 	<Link to="/home">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/privacy">Privacy</Link>
 	</nav>
-		
+	
+	<Route path="/" component={Home} />
 	<Route path="/home" component={Home} />
 	<Route path="/cv" component={CV} />
 	<Route path="/privacy" component={Privacy} />
 	</div>
 	
-	<p>This site might use cookies in order to improve the web browsing experience of users.
-	If you continue to use this site, it will be assumed you agree to the use of cookies.</p>
     </div>
 	
   );
