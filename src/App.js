@@ -4,19 +4,10 @@ import Header from './Components/Header';
 import CV from './Components/CV';
 import Privacy from './Components/Privacy';
 import Home from './Components/Home';
-
 import { Link, Route, Switch } from "react-router-dom";
-
-/* Category component */
-const Category = () => (
-  <div>
-    <h2>Category</h2>
-  </div>
-);
 
 function App() {
   return (
-
 	<div className="App">
 	
 	<div>
