@@ -15,17 +15,14 @@ function App() {
 	<br />	
 	<nav className="Links">
 	<Link to="/home">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/privacy">Privacy</Link>
-	</nav>
-	
-	<Route path="/home" component={Home} />
-	<Route path="/cv" component={CV} />
-	<Route path="/privacy" component={Privacy} />
+	</nav>	
+	<Route exact={true} path="/" component={Home} />
+	<Route exact={true} path="/home" component={Home} />
+	<Route exact={true} path="/cv" component={CV} />
+	<Route exact={true} path="/privacy" component={Privacy} />
 	</div>
-	<p>This site might use cookies in order to improve the web browsing experience 
-	of users. If you continue to use this site, it will be assumed you agree to 
-	the use of cookies.</p>
-    </div>
-	
+
+    </div>	
   );
 }
 

@@ -7,7 +7,7 @@ function CV() {
 	<h1>CV</h1>
 	<h3>Education</h3>
 	<ul>
-	<li>PhD in Computing</li>
+	<li>PhD in Computer Science </li>
 	<li>M.Sc in Electronic Engineering</li>
 	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
 	</ul>
