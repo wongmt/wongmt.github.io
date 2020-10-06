@@ -13,12 +13,11 @@ function App() {
 	
 	<div>
 	<Header />
-	<br />	
+	
 	<nav className="Links">
-	<Link to="/home">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | <Link to="/privacy">Privacy</Link>
+	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | <Link to="/privacy">Privacy</Link>
 	</nav>	
 	<Route exact={true} path="/" component={Home} />
-	<Route exact={true} path="/home" component={Home} />
 	<Route exact={true} path="/cv" component={CV} />
 	<Route exact={true} path="/photos" component={Photos} />
 	<Route exact={true} path="/privacy" component={Privacy} />
