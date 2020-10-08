@@ -1,18 +1,10 @@
 import React from 'react';
-import '../App.css';
-import Header from '../Components/Header';
-import CV from '../Components/CV';
-import Privacy from '../Components/Privacy';
-
-import { Link, Route, Switch } from "react-router-dom";
+//import '../App.css';
 
 function Home() {
   return (
-
-	<div className="Home">
-		
-		<h1>Home</h1>
-		
+	<div className="Home">		
+		<h1>Home</h1>		
 		<div className="Intro">
 		<p>	Welcome to my personal website. I am a researcher in 
 			computer vision and machine learning with Ph.D in 

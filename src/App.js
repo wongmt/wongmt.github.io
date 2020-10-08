@@ -16,7 +16,8 @@ function App() {
 	
 	<nav className="Links">
 	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | <Link to="/privacy">Privacy</Link>
-	</nav>	
+	</nav>
+	
 	<Route exact={true} path="/" component={Home} />
 	<Route exact={true} path="/cv" component={CV} />
 	<Route exact={true} path="/photos" component={Photos} />
