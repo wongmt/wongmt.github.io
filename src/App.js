@@ -12,7 +12,7 @@ function App() {
 	<div className="App">
 	
 	<div>
-	<Header />
+	<Header name="M Wong" sub_title="My personal site" />
 	
 	<nav className="Links">
 	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | <Link to="/privacy">Privacy</Link>

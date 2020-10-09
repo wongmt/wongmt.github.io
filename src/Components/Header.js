@@ -1,11 +1,11 @@
 import React from 'react';
 //import '../App.css';
 
-function Header() {
+function Header(props) {
   return (	  
         <div className="MyHeader">
-        <h1>M. Wong</h1>
-        <h3>My Personal Site</h3>
+        <h1>{props.name}</h1>
+        <h3>{props.sub_title}</h3>
 		</div>      		
   );
 }
