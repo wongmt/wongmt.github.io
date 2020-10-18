@@ -6,7 +6,7 @@ function Privacy() {
     <div className="Privacy">	
 	<h1>Privacy Policy</h1>
 	<h2>Who we are</h2>
-	<p>Our website address is: https://wongmt.github.io</p>
+	<p>Our website address is: https://wongmt.github.io/myapp</p>
 	<p>This is the personal site of M. Wong.</p>
 	<p>Email: mwong[at]mwongsite.com, replace [at] by @</p>
 	<p>If you contact the site author by email, your name, 
