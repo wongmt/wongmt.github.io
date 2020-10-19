@@ -1,5 +1,5 @@
-Vue.component('myheadercom', {
-		template: '<div><div id="header"><h1>M Wong</h1></div>'+
+Vue.component('myheader', {
+		template: '<div><div id="header"><h1>M Wong</h1><h3>My personal site</h3></div>'+
 					'<div id="nav"><a href="index.html">Home</a> | '+
 					'<a href="cv.html">Resume</a> | ' +
 					'<a href="photos.html">Photos</a> | ' +
@@ -7,5 +7,5 @@ Vue.component('myheadercom', {
 })
 
 var vm = new Vue({
-   el: '#myheader'
+   el: '#siteheader'
 })

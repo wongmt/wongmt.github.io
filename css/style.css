@@ -1,11 +1,11 @@
 body {
-    	margin: 50px auto;
-	font-family: serif;
+    margin: 20px auto;
+	font-family: sans-serif;
 	padding: 5px;
 }
 h1 {
-    font-size: 3em;
-    font-family: 'Serif';
+    /*font-size: 3em;*/
+    font-family: sans-serif;
     padding: 5px;
 }
 #header {
