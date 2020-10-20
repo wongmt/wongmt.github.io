@@ -6,12 +6,9 @@
 </head>
 <body>
 <noscript>You need to enable Javascript for ths app to work properly</noscript>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>	
 
-<div id="header_container">
-<div v-html="header"></div>
-</div>
-<script src="header.js"></script>
+<div id="header_container"></div>
+<script src="myheader.js"></script>
 
 <div class="Photo">
 	<h1>Photos</h1>
@@ -34,13 +31,8 @@
 	<img src="./images/acujs.jpg" alt="Photo image" />
 	</div>
 	
-<div id="button_container">
-{{check_cookie()}}
-	<div v-if= "seen">
-	<div v-html='notice'></div>
-	<button v-on:click="agree">Agree</button>
-	</div>
-</div>
-<script src="button.js"></script>
+<div id="notice_container"></div>
+<script src='privacy_reminder.js'></script>
+<script src='privacy.js'></script>
 </body>
 </html>

@@ -6,12 +6,9 @@
 </head>
 <body>
 <noscript>You need to enable Javascript for ths app to work properly</noscript>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>	
 
-<div id="header_container">
-<div v-html="header"></div>
-</div>
-<script src="header.js"></script>
+<div id="header_container"></div>
+<script src="myheader.js"></script>
 
 <div>
 <h1>Home</h1>
@@ -21,17 +18,12 @@ Computer Science, M.Sc in Electronic Engineering, & B.Sc(Hons.) in
 Electrical and Electronic Engineering. I have experience in Python, Java, C++, 
 PHP, Javascript and Kotlin. I also have strong interest in web app development 
 using Python, PHP and Javascript, and mobile app development using Java and 
-Kotlin. This site is built by using the Vue Javascript framework, Javascript, 
+Kotlin. This site is built by using Javascript, 
 HTML and CSS. This site is hosted by GitHub Pages.</p>
 </div>
 
-<div id="button_container">
-{{check_cookie()}}
-	<div v-if= "seen">
-	<div v-html='notice'></div>
-	<button v-on:click="agree">Agree</button>
-	</div>
-</div>
-<script src="button.js"></script>
+<div id="notice_container"></div>
+<script src='privacy_reminder.js'></script>
+<script src='privacy.js'></script>
 </body>
 </html>
