@@ -7,10 +7,11 @@
 <body>
 <noscript>You need to enable Javascript for this app to work properly</noscript>	
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-<div id="siteheader">
-<myheader></myheader>
+
+<div id="header_container">
+<div v-html="header"></div>
 </div>
-<script src="myheader.js"></script>    
+<script src="header.js"></script>  
     
 <p>This is the personal site of M. Wong.</p>
 <p>Email: mwong[at]mwongsite.com, replace [at] by @</p>

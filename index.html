@@ -8,10 +8,10 @@
 <noscript>You need to enable Javascript for ths app to work properly</noscript>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>	
 
-<div id="siteheader">
-<myheader></myheader>
+<div id="header_container">
+<div v-html="header"></div>
 </div>
-<script src="myheader.js"></script>
+<script src="header.js"></script>
 
 <div>
 <h1>Home</h1>
@@ -23,12 +23,7 @@ PHP, Javascript and Kotlin. I also have strong interest in web app development
 using Python, PHP and Javascript, and mobile app development using Java and 
 Kotlin. This site is built by using the Vue Javascript framework, Javascript, 
 HTML and CSS. This site is hosted by GitHub Pages.</p>
-<h2>Experience and skills</h2>
-<ul><li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>
-	<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>
-	<li>Computer vision software libraries: OpenCV, scikit-image</li>
-	<li>Machine learning software libraries: Tensorflow, Weka</li>
-	<li>Mobile app development: Kotlin, Java, Android Studio</li></ul></div>
+</div>
 
 <div id="button_container">
 {{check_cookie()}}
