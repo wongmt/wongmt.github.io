@@ -4,5 +4,11 @@ document.getElementById('notice_container').innerHTML= '<div id="notice">'+
 	'If you continue to use this site, it will be assumed you agree '+ 
 	'to the use of cookies. Please click the "Agree" button to '+
 	'continue browsing. ' +
-	'<button onclick="agree_privacy()">Agree</button>'+
+	'<button onclick="agree()">Agree</button>'+
 	'</p></div>'
+	
+function agree() {
+	//document.getElementById('notice').style.visibility='hidden';
+	document.getElementById("notice").style.display = "none";
+	document.cookie = "myagreebutton1=agree";
+}
