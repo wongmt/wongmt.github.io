@@ -5,10 +5,9 @@ document.getElementById('notice_container').innerHTML= '<div id="notice">'+
 	'to the use of cookies. Please click the "Agree" button to '+
 	'continue browsing. ' +
 	'<button onclick="agree()">Agree</button>'+
-	'</p></div>'
+	'</p></div>';
 	
 function agree() {
-	//document.getElementById('notice').style.visibility='hidden';
 	document.getElementById("notice").style.display = "none";
 	document.cookie = "myagreebutton1=agree";
 }
