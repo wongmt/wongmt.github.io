@@ -7,6 +7,11 @@ document.getElementById('notice_container').innerHTML= '<div id="notice">'+
 	'<button onclick="agree()">Agree</button>'+
 	'</p></div>';
 	
+var check=document.cookie.indexOf('myagreebutton1');
+if (check != -1) {
+		document.getElementById("notice").style.display = "none";
+}
+	
 function agree() {
 	document.getElementById("notice").style.display = "none";
 	document.cookie = "myagreebutton1=agree";
