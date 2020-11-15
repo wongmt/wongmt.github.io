@@ -11,8 +11,12 @@ function Photos() {
 	<img src={require('./images/uts-bldg5r.jpg')} alt="Photo image" />
 	<br /><br />
 	
-	<h3>Australian Catholic University, Strathfield campus</h3>
+	<h3>Homebush Public School, Homebush, NSW, Australia</h3>
+	<p>It is a primary school in Homebush, NSW, Australia.</p>
+	<img src={require('./images/hps1.jpg')} alt="Photo image" />
+	<br /><br />
 	
+	<h3>Australian Catholic University, Strathfield campus</h3>	
 	<img src={require('./images/acupy.jpg')} alt="Photo image" />
 	<br /><br />
 	
