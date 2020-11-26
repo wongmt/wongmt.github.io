@@ -4,7 +4,7 @@ import React from 'react';
 function CV() {
   return (
     <div className="CV">
-	<h1>Brief CV</h1>
+	<h1>CV of M Wong</h1>
 	<h3>Education</h3>
 	<ul>
 	<li>PhD in Computer Science </li>
