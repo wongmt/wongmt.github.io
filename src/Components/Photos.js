@@ -8,7 +8,7 @@ function Photos() {
 	
 	<p>UTS Haymarket Building 5 of University of Technology Sydney, in city of 
 	   Sydney, NSW, Australia.</p>
-	<img src="./images/uts-bldg5r.jpg" alt="Photo image" />
+	<img src="images/uts-bldg5r.jpg" alt="Photo image" />
 	<br /><br />
 	
 	<h3>Homebush Public School, Homebush, NSW, Australia</h3>

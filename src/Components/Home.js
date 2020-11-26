@@ -9,7 +9,7 @@ function Home() {
 		<p>	Welcome to my personal website. I am a researcher in 
 			computer vision and machine learning with Ph.D in 
 			Computer Science, M.Sc & B.Sc(Hons.) in Electronic Engineering.
-			I also have experience in web app and mobile app development.
+			I also have experience in web app development.
 			This site is built by using the React Javascript framework, Javascript,
 			HTML and CSS. This site is hosted by GitHub Pages.</p>					
 		</div>
