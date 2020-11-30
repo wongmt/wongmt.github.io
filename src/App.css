@@ -9,12 +9,12 @@
 .MyHeader {
 	background-color: #ccccff;
 	padding: 5px;
-	text-align: center;
+	/* text-align: center; */
 	
 }
 
 .Links {
-	text-align: center;
+    /*text-align: center;*/
 	background-color: #eeeeff;
 }
 
