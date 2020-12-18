@@ -12,14 +12,14 @@ function App() {
 	<div className="App">
 	<Header name="M Wong" sub_title="My personal site" />
 	<nav className="Links">
-	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | 
-	<Link to="/photos">Photos</Link> | <Link to="/privacy">Privacy</Link>
+	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | 
+	<Link to="/privacy"> Privacy</Link>
 	</nav>  
 	<Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/cv" component={CV} />
     <Route exact path="/photos" component={Photos} />
-    <Route exact path="/privacy" component={Privacy} />		
+    <Route exact path="/privacy" component={Privacy} />	
 	</Switch>
     </div>
     );
