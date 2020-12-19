@@ -4,9 +4,9 @@
 
 .MyHeader {
 	/* background-color: #ccf; */ 
-	background-image: url(sky5.jpg);
+	background-image: url("./Components/images/sky5.jpg");
 	padding: 5px;
-	color: red;
+	color: magenta;
 }
 
 .Links {
