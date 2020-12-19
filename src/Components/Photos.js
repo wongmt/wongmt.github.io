@@ -7,8 +7,7 @@ function Photos() {
   return (
     <div className="Photo">
 	<h1>Photos</h1>
-	<h3>UTS Haymarket Building 5, University of Technology Sydney</h3>
-	
+	<h3>UTS Haymarket Building 5, University of Technology Sydney</h3>	
 	<p>UTS Haymarket Building 5 of University of Technology Sydney, in city of 
 	   Sydney, NSW, Australia.</p>
 	<img src={utsbldg5} alt="UTS" />

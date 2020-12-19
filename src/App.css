@@ -1,24 +1,21 @@
-/*.App {
-  text-align: center;
-}*/
-
 .Introd {
   text-align: left;
 }
 
 .MyHeader {
-	background-color: #ccccff;
+	/* background-color: #ccf; */ 
+	background-image: url(sky5.jpg);
 	padding: 5px;
-	/* text-align: center; */
-	
+	color: orange;
 }
 
 .Links {
-    /*text-align: center;*/
-	background-color: #eeeeff;
+	background-color: #eef;
 }
 
 .Notice {
-	background-color: #eeeeff;
+	background-color: #eef;
 }
+
+
 
