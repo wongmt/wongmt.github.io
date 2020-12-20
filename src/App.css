@@ -1,21 +1,16 @@
-.Introd {
-  text-align: left;
-}
+.Introd { text-align: left; }
 
 .MyHeader {
-	/* background-color: #ccf; */ 
-	background-image: url("./Components/images/sky5.jpg");
+	background-image: url("./Components/images/sky1.jpg");
+	background-repeat: no-repeat;  
+	background-size: 100% 100%;	
 	padding: 5px;
 	color: magenta;
 }
 
-.Links {
-	background-color: #eef;
-}
+.Links { background-color: #eef; }
 
-.Notice {
-	background-color: #eef;
-}
+.Notice { background-color: #eef;}
 
 
 
