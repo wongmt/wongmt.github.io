@@ -1,11 +1,11 @@
 .Introd { text-align: left; }
 
 .MyHeader {
-	background-image: url("./Components/images/sky1.jpg");
+	background: url("./Components/images/sky1.jpg");
 	background-repeat: no-repeat;  
-	background-size: 100% 100%;	
+	background-size: cover;	
 	padding: 5px;
-	color: magenta;
+	color: purple;
 }
 
 .Links { background-color: #eef; }
