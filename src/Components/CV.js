@@ -19,7 +19,7 @@ function CV() {
 	<li>Certificate in "Machine Learning with Python" by Cognitive Class, 
 		powered by IBM Developer Skills Network.</li></ul>
 	<p>Click <a href="https://credly.com/users/man-wong.d4dcf963"> here</a> for 
-	digital badges of certificate courses completed.</p>
+	digital badges of some of my certificate courses completed.</p>
 	
 	<h3>Research specialism</h3>
 	<ul>
