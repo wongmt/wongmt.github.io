@@ -5,12 +5,21 @@ function CV() {
   return (
     <div className="CV">
 	<h1>CV of M Wong</h1>
-	<h3>Education</h3>
+	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>
 	<li>M.Sc in Electronic Engineering</li>
 	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
 	</ul>
+	
+	<h3>Certificates</h3>
+	<ul>
+	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv 
+		University, IsraelX & edX</li>
+	<li>Certificate in "Machine Learning with Python" by cognitiveclass.ai, 
+		powered by IBM Developer Skills Network.</ul>
+	<p>Click <a href="credly.com/users/man-wong.d4dcf963"> here</a> for digital 
+	badges of courses completed.</p>
 
 	<h3>Research specialism</h3>
 	<ul>
