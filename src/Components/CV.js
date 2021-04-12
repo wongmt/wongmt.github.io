@@ -16,11 +16,11 @@ function CV() {
 	<ul>
 	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv 
 		University, IsraelX & edX</li>
-	<li>Certificate in "Machine Learning with Python" by cognitiveclass.ai, 
+	<li>Certificate in "Machine Learning with Python" by Cognitive Class, 
 		powered by IBM Developer Skills Network.</li></ul>
-	<p>Click <a href="https://credly.com/users/man-wong.d4dcf963"> here</a> for digital 
-	badges of certificate courses completed.</p>
-
+	<p>Click <a href="https://credly.com/users/man-wong.d4dcf963"> here</a> for 
+	digital badges of certificate courses completed.</p>
+	
 	<h3>Research specialism</h3>
 	<ul>
 	<li>Computer vision</li>
