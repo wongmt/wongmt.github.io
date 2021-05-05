@@ -16,8 +16,13 @@ function CV() {
 	<ul>
 	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv 
 		University, IsraelX & edX</li>
-	<li>Certificate in "Machine Learning with Python" by Cognitive Class, 
-		powered by IBM Developer Skills Network.</li></ul>
+	<li>Certificates of the following courses on CognitiveClass.ai, powered by IBM 
+			Developer Skills Network:
+		<li>Python for Data Science</li>
+		<li>Data Analysis with Python</li>
+		<li>Data Visualization with Python</li>
+		<li>Machine Learning with Python</li>	
+	</li></ul>
 		
 	<h3>Research specialism</h3>
 	<ul>
