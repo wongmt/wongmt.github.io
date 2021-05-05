@@ -18,10 +18,10 @@ function CV() {
 		University, IsraelX & edX</li>
 	<li>Certificates of the following courses on CognitiveClass.ai, powered by IBM 
 			Developer Skills Network:
-		<li>Python for Data Science</li>
-		<li>Data Analysis with Python</li>
-		<li>Data Visualization with Python</li>
-		<li>Machine Learning with Python</li>	
+		<p>Python for Data Science</p>
+		<p>Data Analysis with Python</p>
+		<p>Data Visualization with Python</p>
+		<p>Machine Learning with Python</p>	
 	</li></ul>
 		
 	<h3>Research specialism</h3>
@@ -33,7 +33,7 @@ function CV() {
 	<h3>Skills & experience</h3>
 	<ul>
 	<li>Programming languages: Python, Java, JavaScript, C++, Kotlin, PHP</li>
-	<li>Web frameworks: Flask, Django, ReactJS, VueJS, Symfony, CodeIgniter</li>
+	<li>Web frameworks: Flask, Django, ReactJS, Symfony, CodeIgniter</li>
 	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
