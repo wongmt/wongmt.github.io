@@ -14,12 +14,13 @@ function App() {
 	<nav className="Links">
 	<Link to="/">HOME</Link> | <Link to="/cv">CV</Link> | <Link to="/photos">Photos</Link> | 
 	<Link to="/privacy"> Privacy</Link>
-	</nav>  
+	</nav> 
+	
 	<Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/cv" component={CV} />
-    <Route exact path="/photos" component={Photos} />
-    <Route exact path="/privacy" component={Privacy} />	
+    <Route exact path="/cv" component={CV} />   	
+	<Route exact path="/photos" component={Photos} />
+	<Route exact path="/privacy" component={Privacy} />
 	</Switch>
     </div>
     );
