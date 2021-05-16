@@ -1,6 +1,3 @@
-import React from 'react';
-//import '../App.css';
-
 function CV() {
   return (
     <div className="CV">

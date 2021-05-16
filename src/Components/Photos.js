@@ -1,4 +1,3 @@
-import React from 'react';
 import utsbldg5 from './images/uts-bldg5r.jpg';
 import hps from './images/hps1.jpg';
 import acupy from './images/acupy.jpg';
